@@ -25,7 +25,7 @@ use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use('nvim-treesitter/playground')
 use('ThePrimeagen/harpoon')
 use('tpope/vim-fugitive')
-
+use('prettier/vim-prettier', { run = 'yarn install' })
 use {
   'VonHeikemen/lsp-zero.nvim',
   requires = {
