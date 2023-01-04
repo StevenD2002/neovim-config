@@ -48,4 +48,6 @@ use {
   }
 }
 use('/github/copilot.vim')
+use('vim-airline/vim-airline')
+use('vim-airline/vim-airline-themes')
 end)
