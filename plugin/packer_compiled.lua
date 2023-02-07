@@ -119,6 +119,16 @@ _G.packer_plugins = {
     path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
+  ["iron.nvim"] = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/iron.nvim",
+    url = "https://github.com/hkupty/iron.nvim"
+  },
+  ["jupytext.vim"] = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/jupytext.vim",
+    url = "https://github.com/GCBallesteros/jupytext.vim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -170,10 +180,25 @@ _G.packer_plugins = {
     path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["presence.nvim"] = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/presence.nvim",
+    url = "https://github.com/andweeb/presence.nvim"
+  },
+  ripgrep = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/ripgrep",
+    url = "https://github.com/BurntSushi/ripgrep"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
   },
   ["vim-airline"] = {
     loaded = true,
@@ -194,6 +219,26 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/vim-prettier",
     url = "https://github.com/prettier/vim-prettier"
+  },
+  ["vim-textobj-hydrogen"] = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/vim-textobj-hydrogen",
+    url = "https://github.com/GCBallesteros/vim-textobj-hydrogen"
+  },
+  ["vim-textobj-line"] = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/vim-textobj-line",
+    url = "https://github.com/kana/vim-textobj-line"
+  },
+  ["vim-textobj-user"] = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/vim-textobj-user",
+    url = "https://github.com/kana/vim-textobj-user"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/Users/stevendew/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
   }
 }
 

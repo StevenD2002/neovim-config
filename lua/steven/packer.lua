@@ -24,7 +24,9 @@ return require('packer').startup(function(use)
 use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use('nvim-treesitter/playground')
 use('ThePrimeagen/harpoon')
+use('mbbill/undotree')
 use('tpope/vim-fugitive')
+use('BurntSushi/ripgrep')
 use('prettier/vim-prettier', { run = 'yarn install' })
 use {
   'VonHeikemen/lsp-zero.nvim',
@@ -50,4 +52,9 @@ use {
 use('/github/copilot.vim')
 use('vim-airline/vim-airline')
 use('vim-airline/vim-airline-themes')
+use('mg979/vim-visual-multi')
+use('andweeb/presence.nvim')
+
+
+
 end)
